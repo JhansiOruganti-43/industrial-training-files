@@ -1,0 +1,277 @@
+*{
+    background-color: rgb(255, 255, 255);
+}
+.a{
+    color: black;
+    font-size:xxx-large;
+
+}
+/*1st box*/
+.b{
+  height: 300px;
+  width: 400px;
+  position: relative;
+  top: 50px;
+  left: 70px;
+  background-color: aliceblue;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(107, 107, 107);
+
+}
+
+.b1{
+    height: 30px;
+    width: 400px;
+    background-color: rgb(170, 4, 182);
+}
+/*2nd box*/
+.c{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: -250;
+    left: 550px;
+    background-color: aliceblue;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(107, 107, 107);
+  
+  }
+  
+  .c1{
+      height: 30px;
+      width: 400px;
+      background-color: rgb(61, 212, 247);
+  }
+  /*3rd box*/
+  .d{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: -550px;
+    left: 1030px;
+    background-color: aliceblue;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(107, 107, 107);
+  
+  }
+  
+  .d1{
+      height: 30px;
+      width: 400px;
+      background-color: rgb(8, 196, 11);
+  }
+  
+  /*4th box*/
+.e{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: -500px;
+    left: 70px;
+    background-color: aliceblue;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(107, 107, 107);
+  
+  }
+  
+  .e1{
+      height: 30px;
+      width: 400px;
+      background-color: rgb(248, 244, 6);
+  }
+  /*5th box*/
+  .f{
+      height: 300px;
+      width: 400px;
+      position: relative;
+      top: -800;
+      left: 550px;
+      background-color: aliceblue;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      box-shadow: 10px 10px 10px rgb(107, 107, 107);
+    
+    }
+    
+    .f1{
+        height: 30px;
+        width: 400px;
+        background-color: rgb(148, 9, 234);
+    }
+    /*6th box*/
+    .g{
+      height: 300px;
+      width: 400px;
+      position: relative;
+      top: -1100px;
+      left: 1030px;
+      background-color: aliceblue;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      box-shadow: 10px 10px 10px rgb(107, 107, 107);
+    
+    }
+    
+    .g1{
+        height: 30px;
+        width: 400px;
+        background-color: rgb(248, 80, 254);
+    }
+    
+    /*1st box matter*/
+    .b2{
+        height: 90px;
+        width: 90px;
+        margin: 10px;
+        border-radius: 50px;
+
+    }
+    i[class="fa-solid fa-magnifying-glass-chart fa-3x"]
+    {
+            padding: 20px;
+            color: white;
+            border-radius:50px ;
+            background-color: rgb(170, 4, 182);
+    }
+   /* 2nd box */
+    .c2{
+        height: 80px;
+        width: 80px;
+        margin: 10px;
+        border-radius: 50px;
+    }
+    i[ class="fa-regular fa-window-restore fa-3x"]
+    {
+        padding: 20px;
+        color: white;
+        border-radius:50px ;
+        background-color: rgb(61, 212, 247);
+    }
+/* 3rd box */
+    .d2{
+        height: 80px;
+        width: 80px;
+        margin: 10px;
+        border-radius: 50px;
+    }
+    i[ class="fa-solid fa-hat-wizard fa-3x"]
+    {
+        padding: 20px;
+        color: white;
+        border-radius:50px ;
+        background-color: rgb(8, 196, 11);
+    }
+
+    /* 4th box */
+   .e2{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 50px;
+
+   }
+   i[ class="fa-solid fa-square-envelope fa-3x"]
+   {
+    padding: 20px;
+    color: white;
+    border-radius: 50px;
+    background-color: rgb(248, 244, 6); ;
+   }
+
+   .f2{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 50px;
+
+   }
+   i[ class="fa-solid fa-bullhorn fa-3x"]
+   {
+    padding: 20px;
+    color: white;
+    border-radius: 50px;
+    background-color: rgb(148, 9, 234);
+   }
+/* 6th box */
+   .g2{
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    border-radius: 50px;
+    
+   }
+   i[class="fa-solid fa-hands-bound fa-2x"]
+   {
+    padding: 20px;
+    color: white;
+    border-radius: 50px;
+    background-color: rgb(248, 80, 254);
+   }
+  
+/* matter in 1st box */
+.b3{
+    padding-left: 3px; 
+    padding-top: 3px;
+   background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+
+}
+
+.c3{
+    padding-left: 3px;
+    padding-top: 3px;
+    background-color: aliceblue;
+     color: rgb(0, 0, 0);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+ }
+ .d3{
+    padding-left: 3px;
+    padding-top: 3px;
+    background-color: aliceblue;
+     color: rgb(0, 0, 0);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+ }
+ .e3{
+    padding-left: 2px;
+    padding-top: 3px;
+    background-color: aliceblue;
+     color: rgb(0, 0, 0);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+ }
+ .f3{
+    padding-left: 3px;
+    padding-top: 3px;
+    background-color: aliceblue;
+     color: rgb(0, 0, 0);
+   font-family: sans-serif ;
+ 
+ }
+ .g3{
+    padding-left: 3px;
+    padding-top: 3px;
+    background-color:none;
+     color: rgb(0, 0, 0);
+     font-family: sans-serif ;
+ 
+ }
+
+ button{
+    height:40px;
+    width:130px;
+    background-color: deeppink;
+    color:white;
+    position: relative;
+    bottom:1050px;
+    left:670px;
+    border-radius: 20px;
+    
+}

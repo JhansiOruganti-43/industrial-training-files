@@ -1,0 +1,73 @@
+.a{
+    height: 600px;
+    width: 1100px;
+    background-color: rgb(165, 163, 161);
+}
+.b{
+    height: 400px;
+    width: 270px;
+    background-color: whitesmoke;
+    border-radius:10px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    float: left;
+}
+i[ class="fa-solid fa-object-exclude fa-3x"]{
+   background-color: white;
+}
+.c{
+    height: 400px;
+    width: 270px;
+    background-color: whitesmoke;
+    border-radius:10px;
+    position: relative;
+    top: 100px;
+    float: left;
+    left: 95px;
+}
+.d{
+    height: 400px;
+    width: 270px;
+    background-color: whitesmoke;
+    border-radius:10px;
+    position: relative;
+    top: 100px;
+    left: 140px;
+    float:left;
+}
+.blue{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+}
+h2{
+    color: black;
+    position: relative;
+    top: 40px;
+    word-spacing: 3px;
+    font-size: 30px;
+}
+p{
+    color: rgb(156, 156, 156);
+}
+hr{
+    height: 3px;
+    width: 240px;
+    background-color: blue;
+    border-radius: 5px;
+}
+button{
+    height: 40px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+i{
+    font-size: 70px;
+    position: relative;
+    top:10px;
+}

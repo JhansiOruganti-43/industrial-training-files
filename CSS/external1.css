@@ -1,0 +1,55 @@
+.external1{
+ font-size: 25px;
+ color: blue;
+ background-color: rgb(34, 97, 221);
+}
+#main{
+   height:100px;
+   width: 100;
+   background-color: rgb(7, 113, 113);
+   font-size: 25;
+   color: rgb(140, 226, 226);
+
+}
+
+span{
+color: brown;
+font-size: 50px;
+font-family: 'Courier New', Courier, monospace;
+background-color: rgb(236, 165, 165);
+}
+
+*{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin: 0;
+padding: 0;
+
+}
+
+input[ type="text"]
+{
+    color: rgb(35, 4, 63);
+}
+a[href]{
+    background-color: aquamarine;
+}
+a:visited{
+    color: rgb(5, 48, 42);
+}
+a:hover{
+    font-size: 30px;
+    color: rgb(182, 113, 8);
+}
+
+a:active{
+    color:rgb(251, 41, 73)
+}
+
+
+
+
+
+
+
+
+

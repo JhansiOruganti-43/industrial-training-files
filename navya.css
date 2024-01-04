@@ -1,0 +1,35 @@
+.a{
+    height: 800px;
+    width: 700px;
+    background-color: rgb(236, 209, 4);
+}
+.B{
+    height:70px ;
+    width: 400px;
+    background-color: rgb(23, 2, 70);
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top:150px;
+}
+.c{
+    height: 70px;
+    width: 400px;
+    background-color: rgb(23, 2, 70);
+    color: rgb(236, 209, 4);
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif ;
+    position:relative ;
+    top: 160px;
+}
+.d{
+    height: 70px;
+    width:300px;
+    background-color: rgb(188, 13, 147);
+    color: rgb(236, 209, 4);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif ;
+    position: relative;
+    top: 180px; 
+}

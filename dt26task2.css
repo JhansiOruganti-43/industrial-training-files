@@ -1,0 +1,224 @@
+.a{
+    height:730px;
+    background-color: whitesmoke;
+
+}
+h1{
+    font-size: 40px;
+}
+.a1{
+    height:250px;
+    width:350px;
+    background-color: white;
+    position: relative;
+    left:50px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.aa1{
+    height:30px;
+    width:350px;
+    background-color: deeppink;
+    position: relative;
+    top:0px;
+}
+.a2{
+    height:250px;
+    width:350px;
+    background-color: white;
+    position: relative;
+    bottom:250px;
+    left:500px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.aa2{
+    height:30px;
+    width:350px;
+    background-color: rgb(57, 183, 232);
+    position: relative;
+    top:0px;
+}
+.a3{
+    height:250px;
+    width:350px;
+    background-color: white;
+    position: relative;
+    left:950px;
+    bottom:500px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.aa3{
+    height:30px;
+    width:350px;
+    background-color: rgb(122, 197, 9);
+    position: relative;
+    top:0px;
+}
+.a4{
+    height:250px;
+    width:350px;
+    background-color: white;
+    position: relative;
+   bottom:460px;
+   left:50px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.aa4{
+    height:30px;
+    width:350px;
+    background-color: yellow;
+    position: relative;
+    top:0px;
+}
+.a5{
+    height:250px;
+    width:350px;
+    background-color: white;
+    position: relative;
+   bottom:710px;
+   left:510px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.aa5{
+    height:30px;
+    width:350px;
+    background-color: violet;
+    position: relative;
+    top:0px;
+}
+.a6{
+    height:250px;
+    width:350px;
+    background-color: white;
+    position: relative;
+   bottom:960px;
+   left:950px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.aa6{
+    height:30px;
+    width:350px;
+    background-color: deeppink;
+    position: relative;
+    top:0px;
+}
+#aaa1{
+    height:40px;
+    width:40px;
+    position: relative;
+    left:10px;
+    top:10px;
+}
+.a1a{
+    height:60px;
+    width:60px;
+    border-radius: 30px;
+    background-color: deeppink;
+    position: relative;
+    top:25px;
+    left:20px;
+}
+#aaa2{
+    height:40px;
+    width:40px;
+    position: relative;
+    left:10px;
+    top:10px;
+}
+.a2a{
+    height:60px;
+    width:60px;
+    border-radius: 30px;
+    background-color:skyblue;
+    position: relative;
+    top:25px;
+    left:20px;
+}
+#aaa3{
+    height:40px;
+    width:40px;
+    position: relative;
+    left:10px;
+    top:10px;
+}
+.a3a{
+    height:60px;
+    width:60px;
+    border-radius: 30px;
+    background-color:rgb(115, 185, 9);
+    position: relative;
+    top:25px;
+    left:20px;
+}
+#aaa4{
+    height:40px;
+    width:40px;
+    position: relative;
+    left:10px;
+    top:10px;
+}
+.a4a{
+    height:60px;
+    width:60px;
+    border-radius: 30px;
+    background-color:rgb(233, 233, 112);
+    position: relative;
+    top:25px;
+    left:20px;
+}
+#aaa5{
+    height:40px;
+    width:40px;
+    position: relative;
+    left:10px;
+    top:10px;
+}
+.a5a{
+    height:60px;
+    width:60px;
+    border-radius: 30px;
+    background-color:violet;
+    position: relative;
+    top:25px;
+    left:20px;
+}
+#aaa6{
+    height:40px;
+    width:40px;
+    position: relative;
+    left:10px;
+    top:10px;
+}
+.a6a{
+    height:60px;
+    width:60px;
+    border-radius: 30px;
+    background-color:deeppink;
+    position: relative;
+    top:25px;
+    left:20px;
+}
+h3{
+    position: relative;
+    top:10px;
+    left:30px;
+}
+p{
+    position: relative;
+    left:20px;
+}
+button{
+    height:30px;
+    width:100px;
+    background-color: deeppink;
+    color:white;
+    position: relative;
+    bottom:950px;
+    left:600px;
+    
+}
