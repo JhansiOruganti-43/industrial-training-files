@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Media Queries</title>
+        <style>
+            #p{
+                height: 1000px;
+                width: 1450px;
+                background-color: aqua;
+                border: 2px solid black;
+            }
+            body{
+                background-color: aqua;
+            }
+            #widthdisplay{
+                padding: 5px 10px;
+                border-radius: 5px;
+                font-size: 25px;
+                font-weight: 100;
+            }
+            @media screen and (min-width:500px) and (max-width:700px){
+                body{
+                    background-color: blue;
+                }
+                div{
+                    color: antiquewhite;
+                }
+            }
+            .blue{
+                height: 500px;
+                width: 300px;
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body><p>
+        <div id="widthdisply">Hello Everyone </div>
+        <center><div class="blue"></div></center>
+        </p>
+    </body>
+</html>

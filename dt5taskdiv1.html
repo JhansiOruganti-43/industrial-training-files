@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Div Task for the div Z-index</title>
+        <style>
+            .r{
+                height: 200px;
+                width: 200px;
+               background-color:  red;
+                position: relative;
+               top: 30px;
+               left: 50px;
+               float: left;
+               z-index: 3;
+            }
+            .g{
+                height: 200px;
+                width: 200px;
+                background-color:green;
+                position: relative;
+               top: 20px;
+               left: 20px;
+               float: left;
+               z-index: 2;
+            }
+            .b{
+                height: 200px;
+                width: 200px;
+                background-color: blue;
+                position: relative;
+                top: 10px;
+                left: 0px;
+                float: left;
+            }
+            /*overflow techniques*/
+            .rr{
+                height: 100px;
+                width: 300px;
+               background-color:  rgb(42, 229, 220);
+                position: relative;
+               top: 300px;
+               left: 150px;
+               float: left;
+               z-index: 3;
+               overflow: scroll;
+            }
+            .gg{
+                height: 100px;
+                width: 300px;
+               background-color:  rgb(7, 157, 32);
+                position: relative;
+               top: 100px;
+               left: 200px;
+               float: left;
+               z-index: 3;
+               overflow: scroll;
+               overflow-y: auto;
+               /* overflow-x: auto; */
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1>Z-Index Example</h1>
+       <div class="r"></div>
+       <div class="g"></div>
+       <div class="b"></div>
+       </center>
+       <div class="rr">The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area. The overflow property has the following values: visible - Default. The overflow is not clipped. The content renders outside the element's box<br>
+        The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area. The overflow property has the following values: visible - Default. The overflow is not clipped. The content renders outside the element's box<br>
+        The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area. The overflow property has the following values: visible - Default. The overflow is not clipped. The content renders outside the element's box</div>
+        <div class="gg">The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area. The overflow property has the following values: visible - Default. The overflow is not clipped. The content renders outside the element's box<br>
+            The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area. The overflow property has the following values: visible - Default. The overflow is not clipped. The content renders outside the element's box<br>
+            The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area. The overflow property has the following values: visible - Default. The overflow is not clipped. The content renders outside the element's box</div>
+    </body>
+    </body>
+</html>

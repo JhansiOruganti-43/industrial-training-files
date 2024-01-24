@@ -1,0 +1,238 @@
+<html>
+    <head>
+        <title>Transform task</title>
+        <style>
+            p{
+                color: aliceblue;
+            }
+            #one{
+                height: 200px;
+                width: 150px;
+                background-color: rgb(5, 188, 188);
+                margin: 30px;
+                float: left;
+                box-shadow: 4px 4px 4px solid rgb(69, 67, 67);
+                border: 1px solid;
+            }
+            #one:hover{
+                transform: translate(20px);
+                transform: translateX(40px);
+                transform: translate3d(10px,20px,30px);
+            }
+            #two{
+                height: 200px;
+                width: 150px;
+                background-color: rgb(58, 40, 176);
+                margin: 30px;
+                float: left;
+                box-shadow: 4px 4px 4px solid rgb(69, 67, 67);
+                border: 1px solid;
+            }
+            #two:hover{
+                transform: translate(20px);
+                transform: translateY(40px);
+            }
+            #three{
+                height: 200px;
+                width: 150px;
+                background-color: rgb(55, 137, 14);
+                margin: 30px;
+                float: left;
+                box-shadow: 4px 4px 4px solid rgb(69, 67, 67);
+                border: 1px solid;
+            }
+            /*clockwise*/
+            #three:hover{
+               transform:rotate(50deg);
+            }
+            #four{
+                height: 200px;
+                width: 150px;
+                background-color: rgb(200, 184, 5);
+                margin: 30px;
+                float: left;
+                box-shadow: 4px 4px 4px solid rgb(69, 67, 67);
+                border: 1px solid;
+            }
+            /*anti-clockwise*/
+            #four:hover{
+               transform:rotate(-50deg);
+            }
+            #five{
+                height: 200px;
+                width: 150px;
+                background-color: rgb(141, 69, 1);
+                margin: 30px;
+                float: left;
+                box-shadow: 4px 4px 4px solid rgb(69, 67, 67);
+                border: 1px solid;
+            }
+           
+            #five:hover{
+               transform:scale(2);
+            }
+            #six{
+                height: 200px;
+                width: 150px;
+                background-color: rgb(114, 3, 96);
+                margin: 30px;
+                float: left;
+                box-shadow: 4px 4px 4px solid rgb(69, 67, 67);
+                border: 1px solid;
+            }
+            /*increse size*/
+            #six:hover{
+               transform:scaleY(2);
+            }
+            #seven{
+                height: 200px;
+                width: 150px;
+                background-color: rgb(8, 122, 63);
+                margin: 30px;
+                float: left;
+                box-shadow: 4px 4px 4px solid rgb(69, 67, 67);
+                border: 1px solid;
+            }
+           
+            #seven:hover{
+               transform:scaleX(3);
+            }
+            #eight{
+                height: 200px;
+                width: 150px;
+                background-color: rgb(94, 2, 2);
+                margin: 30px;
+                float: left;
+                box-shadow: 4px 4px 4px solid rgb(69, 67, 67);
+                border: 1px solid;
+            }
+           
+            #eight:hover{
+               transform:skew(20deg,30deg);
+            }
+            #nine{
+                height: 200px;
+                width: 150px;
+                background-color: rgb(15, 2, 66);
+                margin: 30px;
+                float: left;
+                box-shadow: 4px 4px 4px solid rgb(69, 67, 67);
+                border: 1px solid;
+            }
+           
+            #nine:hover{
+               transform:skewY(20deg);
+            }
+            #ten{
+                height: 200px;
+                width: 150px;
+                background-color: rgb(53, 73, 6);
+                margin: 30px;
+                float: left;
+                box-shadow: 4px 4px 4px solid rgb(69, 67, 67);
+                border: 1px solid;
+            }
+           
+            #ten:hover{
+               transform:skewX(20deg);
+            }
+            #last{
+                height: 200px;
+                width: 150px;
+                background-color: rgb(5, 57, 86);
+                margin: 30px;
+                float: left;
+                box-shadow: 4px 4px 4px solid rgb(69, 67, 67);
+                border: 1px solid;
+            }
+           
+            #last:hover{
+               transform:matrix(1.5,-0.3,0.4,2,10,20)
+            }
+            /*Dt 09 task */
+            #none{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(32, 0, 54);
+                margin: 30px;
+                float: left;
+                box-shadow: 4px 4px 4px solid rgb(69, 67, 67);
+                border: 1px solid;
+            }
+            #none:hover{
+                background-color: rgb(192, 98, 255);
+                border-radius: 400px;
+                transition: 2s ease-in-out 2s;
+                transform: rotate(180deg);
+
+            }
+
+            /* dt-09 Animations on elements */
+            #ntwo{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(6, 122, 66);
+                margin: 30px;
+                float: left;
+                box-shadow: 4px 4px 4px solid rgb(69, 67, 67);
+                border: 1px solid;
+                animation-name: testing;
+                animation-duration: 7s;
+                /* animation-timing-function: linear; */
+                border-radius: 100px;
+                animation-iteration-count: 3;
+                animation-delay: 2s;
+                /* animation-direction:reverse ; */
+                animation-fill-mode: backwards;
+                animation: testing 5s 2 reverse 2s;
+                position: relative;
+            }
+            @keyframes testing{
+                /* from{
+                    background-color: rgb(0, 0, 40);
+                }
+                to{
+                    background-color: rgb(136, 136, 255);
+                } */
+                0%{
+                    background-color: brown;top: 0px;left: 0px;
+                }
+                25%{
+                    background-color: blueviolet;top: 0px;left: 400px;
+                }
+                50%{
+                    background-color: rgb(7, 127, 149);top:300px;left:400px;
+                }
+                60%{
+                    background-color: rgb(213, 232, 11);top:200px;left:300px;
+                }
+
+                75%{
+                    background-color: rgb(13, 125, 0);top: 300px;left:0px;
+                }
+                100%{
+                    background-color: rgb(201, 114, 7);top: 0px;left:0px;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="one"><p>X</p></div>
+        <div id="two"><p>Y</p></div>
+        <div id="three"><p>clockwise</p></div>
+        <div id="four"><p>Anti-clockwise</p></div>
+        <div id="five"><p>Increse size</p></div>
+        <div id="six"><p>Increase Height</p></div>
+        <div id="seven"><p>Incease Width</p></div>
+        <div id="eight"><p>Bend Element</p></div>
+        <div id="nine"><p>Bend Element to Y</p></div>
+        <div id="ten"><p>Bend Element to X</p></div>
+        <div id="last"><p>represents -(scalex,skewy,skewx,<br>scaley,translate,<br>translatey)</p></div>
+        <br>
+        <h1>DT-09 task</h1><hr>
+        <div id="none"><center><p>color changing</p></center></div>
+        <br><br><br>
+        <div id="ntwo"><p><center>Animatons</center></p></div>
+    </body>
+</html>

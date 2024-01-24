@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Animations</title>
+        <style>
+            #ntwo{
+                height: 100px;
+                width: 100px;
+                background-color: rgb(6, 122, 66);
+                margin: 30px;
+                float: left;
+                box-shadow: 4px 4px 4px solid rgb(69, 67, 67);
+                border: 1px solid;
+                animation-name: testing;
+                animation-duration: 3s;
+                /* animation-timing-function: linear; */
+                border-radius: 100px;
+                animation-iteration-count: 3;
+                animation-delay: 1s;
+                /* animation-direction:reverse ; */
+                animation-fill-mode: backwards;
+                animation: testing 5s 1  2s;
+                position: relative;
+            }
+            @keyframes testing{
+                /* from{
+                    background-color: rgb(0, 0, 40);
+                }
+                to{
+                    background-color: rgb(136, 136, 255);
+                } */
+                0%{
+                    background-color: brown;top: 0px;left: 0px;
+                }
+                10%{
+                    background-color: rgb(131, 0, 92);top: -30px;left: 30px;
+                }
+                20%{
+                    background-color: blueviolet;top: 30px;left: 60px;
+                }
+                40%{
+                    background-color: rgb(7, 127, 149);top:-10px;left:90px;
+                }
+                50%{
+                    background-color: rgb(7, 127, 149);top:10px;left:120px;
+                }
+                60%{
+                    background-color: rgb(213, 232, 11);top:200px;left:60px;
+                }
+
+                70%{
+                    background-color: rgb(13, 125, 0);top: 250px;left:30px;
+                }
+                80%{
+                    background-color: rgb(13, 125, 0);top: 200px;left:-10px;
+                }
+                90%{
+                    background-color: rgb(13, 125, 0);top: 150px;left:-20px;
+                }
+                100%{
+                    background-color: rgb(201, 114, 7);top: 0px;left:-10px;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="ntwo"><p><center>Animatons</center></p></div>
+    </body>
+</html>
